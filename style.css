@@ -11,6 +11,9 @@ body{
     flex-wrap: wrap;
 
 }
+p{
+    font-size: 16px;
+}
 
 .card{
     width: 350px;
@@ -30,13 +33,13 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 45px;
+    padding: 40px;
     align-items: center;
 }
 
 .card_text{
     width: 100%;
-    padding: 2px;
+    padding: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +47,13 @@ body{
     border-radius: 10px;
 }
 
-.card_text >img{
+.card_text >div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_text >div>img{
        width: 30px;
        height: 30px;
 }
