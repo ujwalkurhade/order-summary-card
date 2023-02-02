@@ -39,7 +39,6 @@ p{
 
 .card_text{
     width: 100%;
-    padding: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
